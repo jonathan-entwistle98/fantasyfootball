@@ -15,7 +15,6 @@ dy{
 }
 
 #innerContainer{
-    width:960px;
 	padding: 12px;
 	text-align:left;
 }
@@ -50,9 +49,14 @@ dy{
     vertical-align: middle;
 }
 
+#searchForAPlayer{
+    margin-bottom:0px;
+}
+
 .topButtons{
     position: relative;
-    bottom: 4px;
+    left: -20px;
+    bottom: 5px;
 	background-color:#4267b2;
     cursor: pointer;
 	border:10px;
@@ -75,7 +79,20 @@ dy{
 }
 
 #leftContent{
-	width: 50%;
+    min-height: 484px;
+	width: 49%;
+	float: left;
+    margin-bottom: 1%;
+	padding: 2%;
+    padding-bottom: 0;
+    padding-top: 0;
+	padding-left: 10px;
+	background-color: rgba(0,92,132,0.2);
+}
+
+#leftContentIndex{
+    height: 484px;
+	width: 49%;
 	float: left;
     margin-bottom: 1%;
 	padding: 2%;
@@ -174,8 +191,8 @@ dy{
 #logOutButton{
     position: relative;
 	text-decoration: none;
-    bottom: 4px;
-    left: 25%;
+    bottom: 5px;
+    left: 33%;
     padding: 8px 16px;
     text-align: center;
     font-size: 16px;
@@ -186,26 +203,14 @@ dy{
 }
 
 #logOutButton:hover{
-    position: relative;
-	text-decoration: none;
-    bottom: 4px;
-    left:25%;
-    padding: 8px 16px;
-    text-align: center;
-    font-size: 16px;
-    font-weight: bold;
-    margin: 4px 2px;
     background-color: #700505;
-    color: white;
 }
 
 
 #rightContent{
-	width: 50%;
+    min-height: 441px;
+	width: 49%;
 	float: right;
-	padding-left:0;
-	margin-bottom: 1%;
-	background-color: rgba(0,92,132,0.2);
 }
 
 #bottomRightImage{
@@ -254,6 +259,8 @@ dy{
 }
 
 .footerButtons{
+    position: relative;
+    left: -20px;
     background-color:black;
     font-size: 12px;
     width: 40px;
@@ -360,4 +367,221 @@ dy{
 #secondLineMidfield{
 	position: relative;
 	right:-14.6%;
+}
+
+#searchPlayer{
+    position: relative;
+    margin: 10px;
+    margin-left:0px;
+}
+
+#playerData{
+    position: relative;
+    margin-left: 11px;
+    border:2px solid black;
+    width:39%;
+    height:200px;
+    padding:5px;
+    bottom:5px;
+    background-color: white;
+    color: black;
+}
+
+#playerDataContainer{
+    float: left;
+}
+
+#playerData1{
+    position: relative;
+    border:2px solid black;
+    height:200px;
+    padding:5px;
+    bottom:5px;
+    background-color: white;
+    color: black;
+}
+
+#playerData2{
+    position: relative;
+    border:2px solid black;
+    height:200px;
+    padding:5px;
+    bottom:5px;
+    background-color: white;
+    color: black;
+}
+
+#playerData3{
+    position: relative;
+    border:2px solid black;
+    height:200px;
+    padding:5px;
+    bottom:5px;
+    background-color: white;
+    color: black;
+}
+
+#playerData4{
+    position: relative;
+    border:2px solid black;
+    height:200px;
+    padding:5px;
+    bottom:5px;
+    background-color: white;
+    color: black;
+}
+
+#playerData5{
+    position: relative;
+    border:2px solid black;
+    height:200px;
+    padding:5px;
+    bottom:5px;
+    background-color: white;
+    color: black;
+}
+
+#playerData1:hover{ 
+	background-color:#e3ed8e; 
+}
+
+#playerData2:hover{
+	background-color:#e3ed8e;
+}
+
+#playerData3:hover{
+	background-color:#e3ed8e;
+}
+
+#playerData4:hover{
+	background-color:#e3ed8e;
+}
+
+#playerData5:hover{
+	background-color:#e3ed8e;
+}
+
+#avgRating{
+	float: right;
+    right: 20px;
+    top: 357px;
+    position: relative;
+}
+
+.playerDataFirstName{
+	position: relative;
+    text-align: center;
+    font-size: 16px;
+}
+
+.positionFormLayout{
+    position: relative;
+    left: 20px;
+    top: 50px;
+}
+
+.playerDataLastName{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.playerDataRating{
+    font-size:30px;
+    position: relative;
+    bottom: -22px;
+    left: 128px;
+}
+
+.playerDataHeadshots{
+    position: relative;
+    left: -15px;
+}
+
+.playerDataPosition{
+	position: relative;
+    bottom: 10px;
+    float: left;
+    font-size: 28px;
+}
+
+#playerDetails{
+	width: 100%;
+	float: right;
+	padding-left:10px;
+	margin-bottom: 1%;
+	margin-top: 5px;
+	background-color: rgba(0,92,132,0.2);
+}
+
+.advancedDetails{
+	margin-top: 10px;
+	margin-right:20px;
+}
+
+#playerDetailsAdvanced{
+	margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#topRight{
+	min-height: 441px;
+	width: 100%;
+	float: right;
+	padding-left:10px;
+	margin-bottom: 1%;
+	background-color: rgba(0,92,132,0.2);
+}
+
+.addPlayerButton{
+    background: green;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    margin-bottom: 159px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    position: relative;
+    bottom: -20px;
+    left: 30px;   
+}
+
+.addPlayerButton:hover{
+    background-color: #e7e7e7;
+}
+
+.playerCards{
+	cursor: pointer;
+	display: block;
+    max-width: 172px;
+    margin-bottom: 10px;
+}
+.playerCards:hover{
+	background-color:#e3ed8e;
+    margin-left: 5px;
+}
+
+
+
+
+#positionChoiceAndSubmit{
+    position: relative;
+    float:right;
+    width: 260px;
+}
+
+#addPlayerToSquad{
+    background: green;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    margin-bottom: 10px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
 }

@@ -32,7 +32,7 @@ session_start();
 
                 <br>
 
-                <div id = "leftContent">
+                <div id = "leftContentIndex">
 					<h2>Log In</h2>
 
 						
@@ -152,30 +152,29 @@ session_start();
                         <h2 style="text-align: center; vertical-align: middle;">Choose your own fantasy team!</h2>
                     </p>
                     </div>
-                </div>
-                <div id = "bottomRightImage">
+                    <div id = "bottomRightImage">
+                        <div class="slideshow-container">
+                            <div class="mySlides fade">
+                                <img src="https://cdn.pixabay.com/photo/2017/08/04/18/40/football-2580983__340.jpg" style="width:100%" alt="Player takes free kick">
+                            </div>
 
-                    <div class="slideshow-container">
-                        <div class="mySlides fade">
-                            <img src="https://cdn.pixabay.com/photo/2017/08/04/18/40/football-2580983__340.jpg" style="width:100%" alt="Player takes free kick">
-                        </div>
+                            <div class="mySlides fade">
+                                <img src="https://cdn.pixabay.com/photo/2014/10/14/20/24/the-ball-488700__340.jpg" style="width:100%" alt="Football Image">
+                            </div>
 
-                        <div class="mySlides fade">
-                            <img src="https://cdn.pixabay.com/photo/2014/10/14/20/24/the-ball-488700__340.jpg" style="width:100%" alt="Football Image">
-                        </div>
+                            <div class="mySlides fade">
+                                <img src="https://cdn.pixabay.com/photo/2014/03/18/20/21/man-290186__340.jpg" style="width:100%" alt="Fans in the stadium">
+                            </div>
 
-                        <div class="mySlides fade">
-                            <img src="https://cdn.pixabay.com/photo/2014/03/18/20/21/man-290186__340.jpg" style="width:100%" alt="Fans in the stadium">
+                            <div class="mySlides fade">
+                                <img src="https://cdn.pixabay.com/photo/2015/05/28/16/37/sport-788105__340.jpg" style= "width:100%; height:275px" alt="Football Boots">
+                            </div>
                         </div>
-
-                        <div class="mySlides fade">
-                            <img src="https://cdn.pixabay.com/photo/2015/05/28/16/37/sport-788105__340.jpg" style= "width:100%; height:275px" alt="Football Boots">
-                        </div>
+                        <br>
 
                     </div>
-                    <br>
+                </div>
 
-                 </div>
                  <br>
 
                 </div>
